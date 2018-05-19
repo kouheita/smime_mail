@@ -17,7 +17,6 @@ public class smail {
 		String	context = null;
 		String	attach = null;
 		String	cert = null;
-		String	cert_rsa = null;
 		String	cert_type = null;
 		String	cert_pass = null;
 		String	cert_encrypt = null;
@@ -38,7 +37,6 @@ public class smail {
 			from = properties.getProperty("from");
 			to = properties.getProperty("to");
 			cert = properties.getProperty("cert");
-			cert_rsa = properties.getProperty("cert_rsa");
 			cert_type = properties.getProperty("cert_type");
 			cert_pass = properties.getProperty("cert_pass");
 			cert_encrypt = properties.getProperty("encrypt_cert");
@@ -83,7 +81,7 @@ public class smail {
 						}
 						System.out.println();
 						imap instImap = new imap();
-						instImap.fetch(cert_rsa, cert_pass, host, mailStoreType, username, password, list_days);
+						instImap.fetch(cert, cert_pass, host, mailStoreType, username, password, list_days);
 		   			}
 					else if ((line.charAt(0) == 'F') || (line.charAt(0) == 'f')){
 						System.out.print("Send to : ");
