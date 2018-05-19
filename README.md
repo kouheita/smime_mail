@@ -13,11 +13,13 @@ s/mime mail testing program (Java console)
   <li>console</li>
 <br />
 <p>4.Library</p>
-  <li>oracle java mail</li>
-  <li>bauncy castle</li>
+  <li>oracle java mail(https://javaee.github.io/javamail/)</li>
+  <li>oracle JAF activation(http://www.oracle.com/technetwork/jp/java/javaee/tech/index-135046.html)</li>
+  <li>bauncy castle(https://www.bouncycastle.org/latest_releases.html)</li>
 <br />
 <p>5.reference</p>
   <li>tutorialspoint java mail(https://www.tutorialspoint.com/javamail_api/index.htm)</li>
+  <li>bouncy catsle s/mime samples(https://github.com/bcgit/bc-java/tree/master/mail/src/main/java/org/bouncycastle/mail/smime/examples)</li>
 <br />
 <p>6.version</p>
   <li>0.1 : mail function(smtp, pop3, imap) and limited s/mime function(sign, encrypt) passed.</li>
