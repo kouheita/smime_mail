@@ -18,3 +18,9 @@ s/mime mail testing program (Java console)
 <br />
 <p>5.reference</p>
   <li>tutorialspoint java mail(https://www.tutorialspoint.com/javamail_api/index.htm)</li>
+<br />
+<p>6.version</p>
+  <li>0.1 : mail function(smtp, pop3, imap) and limited s/mime function(sign, encrypt) passed.</li>
+<br />
+<p>7.under development</>
+  <li>s/mime function : verify, decryption, ecies </li>
