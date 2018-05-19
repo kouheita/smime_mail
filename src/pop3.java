@@ -266,7 +266,6 @@ public class pop3 {
 	public void fetch(String	strCertFile, 
 			  		  String 	strPassword,
 			  		  String	pop3Host, 
-					  String 	storeType, 
 					  String 	user, 
 					  String 	password)
 	{

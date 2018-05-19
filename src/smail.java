@@ -8,7 +8,6 @@ public class smail {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
       	String 	host = null;
-      	String 	mailStoreType = null;
       	String	username = null;
       	String 	password = null;
 		String	to = null;
@@ -31,7 +30,6 @@ public class smail {
 			InputStream is = new FileInputStream(strPass);
 			properties.load(is);
 			host = properties.getProperty("host");
-			mailStoreType = properties.getProperty("receive");
 			username = properties.getProperty("username");
 			password = properties.getProperty("password");
 			from = properties.getProperty("from");
@@ -80,8 +78,9 @@ public class smail {
 	     					System.out.println("Receive Message as All List.");
 						}
 						System.out.println();
+						// if your favorite pop3 change as follows to pop3 class
 						imap instImap = new imap();
-						instImap.fetch(cert, cert_pass, host, mailStoreType, username, password, list_days);
+						instImap.fetch(cert, cert_pass, host, username, password, list_days);
 		   			}
 					else if ((line.charAt(0) == 'F') || (line.charAt(0) == 'f')){
 						System.out.print("Send to : ");

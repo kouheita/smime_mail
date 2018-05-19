@@ -1,5 +1,4 @@
 host=<your mail server uri>
-receive=<imaps | pops3s>
 username=<your mail server login name>
 password=<your mail server login password>
 cert=<your certification file(pkcs12)>

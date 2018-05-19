@@ -63,7 +63,6 @@ public class imap {
 	public void fetch(String	strCertFile, 
 					  String 	strPassword,
 					  String	imapHost, 
-					  String 	storeType, 
 					  String 	user, 
 					  String 	password, 
 					  int 		past_days)
