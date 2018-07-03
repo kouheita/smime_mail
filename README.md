@@ -23,6 +23,7 @@ s/mime mail testing program (Java console)
 <br />
 <p>6.version</p>
   <li>0.1 : mail function(smtp, pop3, imap) and limited s/mime function(sign, encrypt) passed.</li>
+  <li>0.2 : ECIES feature add but OutLook could not accept ECC encrypted mail.</li>
 <br />
 <p>7.under development</>
   <li>s/mime function : verify, decryption, ecies </li>
